@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .container {
@@ -12,11 +13,11 @@
 }
 
 .right-side {
-    border: 3px solid white;
     padding: 64px 200px;
-    background-color: black;
+    background-color: #111418;
     color: white;
     flex: 1;
+   
 }
 
 .left-side {
@@ -26,7 +27,7 @@
     background-size: cover;
 }
 
-.register input[type = 'text'], input[type = 'email'], input[type = 'password'] textarea{
+.register input[type = 'text'], input[type = 'email'], input[type = 'password'] {
     margin-bottom: 24px;
     padding: 18px 30px;
     border: 0;
@@ -97,6 +98,24 @@ hr {
     margin-bottom: 50px;
 }
 
+input {
+    border-radius: 5px;
+    background-color: #232A31;
+}
+
+.register-submit {
+    background-color: #0D6CFD;
+    font-size: 16px;
+    color: white;
+    padding: 16px 40px;
+    border-radius: 5px;
+}
+
  
+form {
+    margin-bottom: 24px;
+}
 
-
+::placeholder{
+    font-size: 16px;
+}
